@@ -31,7 +31,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 //enable CORS
 var corsOptions = {
-    origin: 'http://ec2-18-212-243-2.compute-1.amazonaws.com:3000',
+    origin: 'http://ec2-52-207-136-73.compute-1.amazonaws.com:3000',
     credentials: true,
     optionsSuccessStatus: 200
 }
